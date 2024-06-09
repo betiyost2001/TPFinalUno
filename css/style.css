@@ -1,0 +1,140 @@
+/* ACA EMPIEZA EL MENU DE ARRIBA */
+
+.header{
+    position: fixed;
+}
+
+.conteiner a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+
+.conteiner button{
+    color: black;
+    background-color: white;
+    font-weight: 800;
+    font-size: 15px;
+    border: none;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.conteiner{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.item1 img{
+    margin: 10px 0px 0px -40px;
+    position: absolute;
+    height: 60px;
+    left: 60px;
+}
+
+.item1 h2{
+    
+    letter-spacing: 1.5px;
+    position: absolute;
+    margin: 27px 0px 0px 80px;
+    font-size: 20px;
+    font-weight: 1000;
+    transform: scale(0.9,1);
+}
+
+.vl {
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    height: 90px;
+    position: absolute;
+    margin: -10px 0px 0px 216px;
+  }
+
+.item2{
+    margin: 28px 0px 0px 236px;
+    position: absolute;
+}
+
+.item3{
+    margin: 28px 0px 0px 320px;
+    position: absolute;
+}
+
+.item4{
+    margin: 28px 0px 0px 410px;
+    position: absolute;
+}
+
+.item5{
+    margin: 28px 0px 0px 515px;
+    position: absolute;
+}
+
+.item6 img{
+    height: 28px;
+    left: 28px;
+    position: absolute;
+    border: 1px solid rgba(128, 128, 128, 0.514);
+    border-radius: 50px;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+
+.img1{
+    margin: 22px 0px 0px 870px;
+}
+
+.imgg{
+    margin: 22px 0px 0px 918px;
+}
+
+.img3{
+    margin: 22px 0px 0px 966px;
+}
+
+.vl1 {
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    height: 90px;
+    position: absolute;
+    margin: -10px 0px 0px 1100px;
+  }
+
+  .item7{
+    position: absolute;
+    margin: 22px 0px 0px 1123px;
+
+  }
+
+  .item7 img{
+    height: 25px;
+    left: 25px;
+  }
+
+  .item8{
+    position: absolute;
+    margin: 16px 0px 0px 1180px;
+  }
+
+  .item8 button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: box-shadow 1seg ease-in-out;
+
+  }
+
+  .item8 button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
