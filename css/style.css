@@ -1,7 +1,18 @@
+body{
+    background: linear-gradient(to bottom, #f7f7f7, 20%, white) ;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 /* ACA EMPIEZA EL MENU DE ARRIBA */
 
-.header{
-    position: fixed;
+header{
+    position: top;
+    background: white;
+    height: 90px;
+
+
 }
 
 .conteiner a{
@@ -32,11 +43,13 @@
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    margin:0px 0px 0px 10px;
+
 }
 
 
 .item1 img{
-    margin: 10px 0px 0px -40px;
+    margin: 15px 0px 0px -40px;
     position: absolute;
     height: 60px;
     left: 60px;
@@ -46,7 +59,7 @@
     
     letter-spacing: 1.5px;
     position: absolute;
-    margin: 27px 0px 0px 80px;
+    margin: 32px 0px 0px 80px;
     font-size: 20px;
     font-weight: 1000;
     transform: scale(0.9,1);
@@ -54,28 +67,28 @@
 
 .vl {
     border-left: 1px solid rgba(128, 128, 128, 0.219);
-    height: 90px;
+    height: 100px;
     position: absolute;
     margin: -10px 0px 0px 216px;
   }
 
 .item2{
-    margin: 28px 0px 0px 236px;
+    margin: 33px 0px 0px 236px;
     position: absolute;
 }
 
 .item3{
-    margin: 28px 0px 0px 320px;
+    margin: 33px 0px 0px 320px;
     position: absolute;
 }
 
 .item4{
-    margin: 28px 0px 0px 410px;
+    margin: 33px 0px 0px 410px;
     position: absolute;
 }
 
 .item5{
-    margin: 28px 0px 0px 515px;
+    margin: 33px 0px 0px 515px;
     position: absolute;
 }
 
@@ -90,27 +103,27 @@
 }
 
 .img1{
-    margin: 22px 0px 0px 870px;
+    margin: 27px 0px 0px 870px;
 }
 
 .imgg{
-    margin: 22px 0px 0px 918px;
+    margin: 27px 0px 0px 918px;
 }
 
 .img3{
-    margin: 22px 0px 0px 966px;
+    margin: 27px 0px 0px 966px;
 }
 
 .vl1 {
     border-left: 1px solid rgba(128, 128, 128, 0.219);
-    height: 90px;
+    height: 100px;
     position: absolute;
     margin: -10px 0px 0px 1100px;
   }
 
   .item7{
     position: absolute;
-    margin: 22px 0px 0px 1123px;
+    margin: 27px 0px 0px 1123px;
 
   }
 
@@ -121,7 +134,7 @@
 
   .item8{
     position: absolute;
-    margin: 16px 0px 0px 1180px;
+    margin: 21px 0px 0px 1180px;
   }
 
   .item8 button{
@@ -138,3 +151,107 @@
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 
+/* ACA EMPIEZA HERO */
+
+.hero h1{
+    margin: 210px 0px 0px 150px;
+    font-size: 50px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: -3px;
+    word-spacing: -2px;
+}
+
+.color{
+    margin: 100px 0px 0px 0px;
+    color: #ffc13e;
+}
+
+.fuente{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    height: 20px;
+    letter-spacing: -1px;
+}
+
+.fuente0{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #979898;
+    font-weight: 500;
+    word-spacing: -1px;
+    text-decoration: none;
+    margin: -5px 0px 0px 0px;
+}
+
+.quienSoy{
+    margin: 26px 500px 0px 150px;
+    word-spacing: -1px;
+    line-height: 1.5;
+    height: 5px;
+}
+
+.ordenarDivs{
+    display: flex;
+    margin: 45px 0px 0px 150px;
+
+}
+
+.div2{
+    margin: 0px 0px 0px 20px;
+}
+
+.enlace{
+    text-decoration: none;
+    color: #979898;
+}
+
+.hero button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 5px;
+
+}
+
+.yo{
+    position: absolute;
+    height: 900px;
+    left: 900px;
+    margin: -300px 0px 0px -320px;
+    z-index: -1;
+
+}
+
+.botonDescargarCV{
+    background: linear-gradient(to bottom, #dba32e, 50%, #ffc13e);
+    border-color: #dba32e;
+    margin: 60px 0px 0px 150px;
+}
+
+.botonContratame{
+    background: linear-gradient(to bottom, black, 50%, #1f1f1f);
+    border-color: black;
+    margin: 60px 0px 0px 10px;
+}
+
+.hero h2{
+    position: absolute;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: #f2f1f1;
+    font-size: 100px;
+    z-index: -1;
+    margin: -110px 0px 0px 0px;
+}
+
+.detalle{
+    position: absolute;
+    z-index: -1;
+    margin: 0px 0px 0px -100px;
+}
