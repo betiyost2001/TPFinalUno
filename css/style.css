@@ -255,3 +255,121 @@ header{
     z-index: -1;
     margin: 0px 0px 0px -100px;
 }
+
+/* ACA EMPIEZA EL ABBOUT ME */
+
+
+.aboutMe{
+    margin: 300px 0px 0px 0px;
+}
+
+.aboutMe h2{
+    font-size: 30px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: -2px;
+    margin: 0px 0px 0px 740px;
+    line-height: 1.5;
+}
+
+.lorem{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 180px 0px 740px;
+    color: #a2a0a1;
+    font-weight: 400;
+}
+
+.Sigueme{
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: -1px;
+    margin: 30px 0px 30px 740px;
+    line-height: 1.5;
+}
+
+.BEHANCE{
+    color: #0b5efb;
+    margin: 0px 0px 0px 740px;
+    transition: color 0.3s ease;
+}
+
+.BEHANCE:hover{
+    color: aqua;
+}
+
+
+.pBE{
+    position: absolute;
+    margin: -30px 0px 0px 790px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.gith{
+    color: #1f1f1f;
+    transition: color 0.3s ease;
+}
+
+.gith:hover{
+    color: #a2a0a1;
+}
+
+.pGH{
+    position: absolute;
+    margin: -30px 0px 0px 920px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.pInsta{
+    position: absolute;
+    margin: -30px 0px 0px 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffb313;
+    transition: color 0.3s ease;
+}
+
+.pInsta:hover{
+    color: yellow;
+}
+
+
+.v3{
+    border-left: 2px solid rgba(128, 128, 128, 0.219);
+    height: 60px;
+    position: absolute;
+    margin: -300px 0px 0px 703px;
+
+}
+
+.about{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: rotate(270deg);
+    margin: -350px 0px 0px 670px;  
+    color: #a2a0a1;
+    font-weight: 400;
+}
+
+.detalle1 {
+    position: absolute;
+    margin: -780px 0px 0px -650px;
+    z-index: -1;
+}
+
+.detalle2{
+    position: absolute;
+    transform: rotate(180deg);
+    margin: -440px 0px 0px 630px;
+    height: 400px;
+    left: 400px;
+}
+
