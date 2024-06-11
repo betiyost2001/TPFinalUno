@@ -414,28 +414,27 @@ header{
 }
 .primero, .segundo, .tercero, .cuarto {
     margin: 0; /* Remueve los márgenes negativos */
-    padding: 20px; /* Ajusta el padding para que sea uniforme */
 }
 
 .primero{
-    margin: -40px 0px 0px -50px;
-    padding: 30px 50px;
+    margin: -40px 0px 0px 0px;
+    padding: 30px 60px;
 }
 
 .segundo{
-    padding: 30px 50px;
+    padding: 30px 60px;
     margin: 0px 0px 0px 20px;
 }
 
 .tercero{
-    margin: -10px 0px 0px -40px;
-    padding: 20px 55px;
+    margin: -10px 0px 0px 0px;
+    padding: 30px 60px;
     line-height: 20px;
     
 }
 
 .cuarto{
-    padding: 20px 55px;
+    padding: 30px 60px;
     margin: 20px 0px 0px 30px;
     line-height: 20px;
 }
@@ -491,7 +490,7 @@ header{
 }
 
   .tmñ1{
-    width: calc(60% - 1px);
+    width: calc(50% - 1px);
     height: 8px;
     background-color: #ffad00;
   }
@@ -502,7 +501,7 @@ header{
     background-color: #ffad00;
   }
   .tmñ3{
-    width: calc(50% - 1px);
+    width: calc(60% - 1px);
     height: 8px;
     background-color: #ffad00;
   }
@@ -538,3 +537,82 @@ header{
     position: absolute;
     margin: -130px 0px 0px -190px;
   }
+
+  /* ACA EMPIEZA MI PORTAFOLIO */
+
+.myWork h2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: -1px;
+    font-size: 40px;
+    margin: 100px 0px 0px 180px;
+}
+
+.descProyectos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: #828282;
+    margin: 20px 400px 0px 180px;
+    line-height: 1.5;
+}
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.tabButton {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -1px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 40px 0px 0px 180px;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.tabButton .badge {
+    color: #ffb10c;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+
+.tabButton:hover {
+    background-color: #b1b7bd62;
+}
+
+.tabContent {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+    display: block;
+}
+
+#tab1:checked + label,
+#tab2:checked + label,
+#tab3:checked + label {
+    color: #ffb10c;
+}
