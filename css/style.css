@@ -1,8 +1,7 @@
 body{
-    background: linear-gradient(to bottom, #f7f7f7, 20%, white) ;
+    background: linear-gradient(to bottom, #f7f7f7, 30%, white) ;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 /* ACA EMPIEZA EL MENU DE ARRIBA */
@@ -373,3 +372,73 @@ header{
     left: 400px;
 }
 
+/* ACA COMIENZA MY SKILLZ */
+
+.mySkills{
+    display: flex;
+    align-items: center;
+
+}
+
+.items{
+    flex: 1;
+}
+
+.contenedorDos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.it{
+    border: 1px solid white;
+    padding: 40px 50px;
+    margin: 20px 0px 0px 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px 0.5px #a2a0a177;
+    transition: color 0.3s ease;
+}
+
+.it:hover{
+    background-color: #a2a0a194;
+}
+
+.contenedorUno{
+    margin: 210px 0px 1000px 180px;
+}
+
+.contenedorUno h2{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 35px;
+    letter-spacing: -3px;
+}
+
+.it1{
+    color: #828282;
+    font-family: "Chocolate Classical Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0px 200px 0px 0px;
+    line-height: 1.5;
+}
+
+.it2{
+    font-family: "Chocolate Classical Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: back;
+    font-size: 12px;
+}
+
+.barra{
+
+}
