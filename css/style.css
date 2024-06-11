@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom, #f7f7f7, 30%, white) ;
+    background: linear-gradient(to bottom, #f7f7f7, white) ;
     margin: 0;
     padding: 0;
 }
@@ -351,11 +351,12 @@ header{
 
 .about{
     position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     transform: rotate(270deg);
     margin: -350px 0px 0px 670px;  
     color: #a2a0a1;
-    font-weight: 400;
 }
 
 .detalle1 {
@@ -386,23 +387,57 @@ header{
 
 .contenedorDos{
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-    align-content: space-around;
-    font-family: "Roboto Mono", monospace;
-    font-optical-sizing: auto;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
     font-style: normal;
-
+    font-size: 19px;
+    align-items: center;
+    margin: 270px 0px 0px 0px;
 }
 
 .it{
     border: 1px solid white;
-    padding: 40px 50px;
-    margin: 20px 0px 0px 20px;
+    margin: 10px 0px 0px 20px;
+    align-items: center;
+    text-align: center;
     border-radius: 20px;
+    padding: 20px;
     background-color: white;
-    box-shadow: 0 0 5px 0.5px #a2a0a177;
+    box-shadow: 0 0 10px 1px #b9b8b94f;
     transition: color 0.3s ease;
+}
+
+.it img{
+    width: 70px;
+    left: 70px;
+}
+.primero, .segundo, .tercero, .cuarto {
+    margin: 0; /* Remueve los márgenes negativos */
+    padding: 20px; /* Ajusta el padding para que sea uniforme */
+}
+
+.primero{
+    margin: -40px 0px 0px -50px;
+    padding: 30px 50px;
+}
+
+.segundo{
+    padding: 30px 50px;
+    margin: 0px 0px 0px 20px;
+}
+
+.tercero{
+    margin: -10px 0px 0px -40px;
+    padding: 20px 55px;
+    line-height: 20px;
+    
+}
+
+.cuarto{
+    padding: 20px 55px;
+    margin: 20px 0px 0px 30px;
+    line-height: 20px;
 }
 
 .it:hover{
@@ -410,7 +445,7 @@ header{
 }
 
 .contenedorUno{
-    margin: 210px 0px 1000px 180px;
+    margin: 210px 0px 0px 180px;
 }
 
 .contenedorUno h2{
@@ -437,8 +472,69 @@ header{
     font-style: normal;
     color: back;
     font-size: 12px;
+    margin: 20px 0px 0px 0px;
 }
 
-.barra{
-
+.progress {
+    width: 80%;
+    height: 2px;
+    background-color: #f0f0f0;
+    margin: 20px 0px 0px 0px;
+  }
+   
+.progress p{
+    color: #1f1f1f;
+    position: absolute;
+    margin: -33px 0px 0px 440px;
+    font-size: 11px;
+    font-weight: 600;
 }
+
+  .tmñ1{
+    width: calc(60% - 1px);
+    height: 8px;
+    background-color: #ffad00;
+  }
+
+  .tmñ2{
+    width: calc(80% - 1px);
+    height: 8px;
+    background-color: #ffad00;
+  }
+  .tmñ3{
+    width: calc(50% - 1px);
+    height: 8px;
+    background-color: #ffad00;
+  }
+
+  .manchaGramde{
+    position: absolute;
+    margin: 600px 0px 0px 500px;
+    z-index: -1;
+    height: 1260px;
+    left: 300px;
+  }
+
+  .barra{
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    height: 60px;
+    position: absolute;
+    margin: 130px 0px 0px -20px;
+  }
+
+  .skil{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transform: rotate(270deg);
+    margin: 70px 0px 0px -55px;  
+    color: #a2a0a1;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .deta3{
+    position: absolute;
+    margin: -130px 0px 0px -190px;
+  }
