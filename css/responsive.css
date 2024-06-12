@@ -23,6 +23,31 @@ header{
     display: none;
 }
 
+.conteiner:hover .item2 {
+    width: 358px;
+    display: block;
+    z-index: 1;
+}
+
+.conteiner:hover .item3 {
+    width: 358px;
+    display: block;
+    z-index: 1;
+}
+.conteiner:hover .item4 {
+    width: 358px;
+    display: block;
+    z-index: 1;
+}
+.conteiner:hover .item5 {
+    width: 358px;
+    display: block;
+    z-index: 1;
+}
+.conteiner a:hover {
+    background-color: yellow;
+}
+
 
 .lista{
     position: relative;
@@ -137,20 +162,48 @@ body{
     margin: 0;
 }
 
+header{
+  width: 358px;  
+}   
+}
 .tabButton{
     font-size: 15px;
     margin: 0;
 }
-
+.tabContent{
+    width: 358px;
+}
 .tabContent img{
     display: block;
     height: 160px;
     left: 160px;
 }
+
 .contactame img{
-    display: block;
     margin: 0;
-    height: 543px;
-    left: 320px;
 }
+
+.contactame{
+    margin: 300px 0px 0px -210px;
+}
+
+.fondoo{
+    display: block;
+    transform: rotate(90deg);
+    height: 358px;
+ ;
+}
+.about, .v3, .vl, .manchaGramde, .barra, .skil{
+    display: none;
+}
+
+.otroPortafolio{
+    flex-direction: column;
+    z-index: 1;
+    padding: 20px;
+    margin: 20px 0px 0px 250px;
+}
+
+.otroPortafolio img{
+    display: inline;
 }
