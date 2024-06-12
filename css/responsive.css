@@ -1,0 +1,130 @@
+@media(max-width:500px){
+.conteiner{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.item1{
+    display: none;
+}
+
+header{
+    height: 50px;
+    padding: 10px;
+}
+
+.item2, .item3, .item4, .item5, .item6, .item7, .item8, .vl1{
+    position:relative;
+    margin: 0px 0px 0px 0px;
+    padding: 20px;
+    background-color: white;
+    display: none;
+}
+
+
+.lista{
+    position: relative;
+    display: block;
+    color: black;
+    width: 30px;
+    left: 30px;
+}
+
+body img{
+    display: none;
+}
+
+.hero{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.hero h2{
+    font-size: 50px;
+}
+
+.fuente0{
+    margin: 20px 0px 0px 0px;
+    position: relative;
+}
+
+
+.hero h1{
+    font-size: 25px;
+    margin: 60px 0px 0px 5px;
+    position: relative;
+}
+.hero button{
+    position: relative;
+    font-size: 14px;
+     margin: 120px 0px 0px 0px;
+    }
+
+.ordenarDivs{
+    display: none;
+}
+.aboutMe{
+    margin: 0;
+}
+
+.aboutMe h2{
+    margin: 30px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.lorem{
+    margin: 10px 0px;
+}
+
+.Sigueme{
+    margin: 0;
+}
+.BEHANCE{
+    display: none;
+}
+.gith img, .ins img{
+    display: inline;
+    margin: 20px 0px 0px 10px;
+}
+
+.gith p{
+    margin: -30px 0px 0px 70px;
+}
+
+.ins p{
+    margin: -30px 0px 0px 200px;
+}
+.mySkills{
+    flex-direction: column;
+}
+.contenedorUno{
+    margin: 0;
+    flex-direction: column;
+}
+
+.contenedorUno h2{
+    font-size: 20px;
+}
+
+.it1{
+    margin: 0;
+}
+.contenedorDos{
+    font-size: 15px;
+    margin: 50px 0px 0px 0px;
+}
+.progress p{
+    margin: -30px 0px 0px 230px;
+}
+
+.primero, .segundo, .tercero, .cuarto{
+    padding: 20px 40px;
+}
+body{
+    padding: 20px;
+}
+}

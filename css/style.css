@@ -40,8 +40,12 @@ header{
     cursor: pointer;
 }
 
+.lista{
+    display: none;
+}
+
 .conteiner{
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
@@ -51,6 +55,7 @@ header{
     margin:0px 0px 0px 10px;
 
 }
+
 
 
 .item1 img{
